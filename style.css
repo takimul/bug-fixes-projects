@@ -497,16 +497,17 @@ body{
 
     .four-image-container{
         margin-top: 5%;
+        height: 50%;
         display: flex;
         justify-content: center;
         gap: 10px;
         margin-bottom: 1px;
         padding-bottom: 1px;
+        /* border: 1px solid white; */
     }
     .four-img{
-      
-        width: 200px;
-        height: 200px;
+            width: 20%;
+        height: 90%;
         overflow: hidden;
         border-radius: 12px;
         box-shadow: rgba(64, 230, 108, 0.25) 0px 50px 100px -20px, rgba(96, 158, 128, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -587,7 +588,25 @@ body{
         font-weight: normal;
         font-family: "Inter", sans-serif;
     }
+    
 
+    .bmi-form input{
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        border-style: none;
+        color: rgba(255, 255, 255, 0.5);
+        
+   
+   
+       }
+    
     .bmi-form button{
      width: 40%;
      justify-content: center;
@@ -665,22 +684,22 @@ body{
   
 
     .six-image-container{
-        display: grid;
+        
+        display: grid; 
         grid-template-columns: repeat(3,2fr);
         border-radius: 3px;
         padding-left: 2%;
         padding-right: 2%;
-        
-        
-        
         margin-left: 1%;
         margin-right: 1%;
         gap: 20px;
+        /* border: 1px solid white; */
     }
     .six-image{
+        /* border: 1px solid white; */
         position: relative;
-        height: 250px;
-        width: 300px;
+        height: 100%;
+        width: 100%;
         object-fit: cover;
     }
     .six-image img{
@@ -691,7 +710,7 @@ body{
     }
 
     .six-image h3 {
-        
+        font-size: calc(0.3em + 1vw);
         color: white;
         position: absolute;
         margin-left: 10%;
@@ -700,7 +719,7 @@ body{
     }
 
     .six-image p{
-        
+        font-size: calc(0.1em + 1vw);
         position: absolute;
         margin-left: 10%;
         margin-top: -8%;
@@ -828,6 +847,12 @@ body{
             display: flex;
             flex-direction: column;
         }
+        .six-image h3{
+            font-size: 1em;
+        }
+        .six-image p{
+            font-size: 1em;
+        }
         .footer-container{
             flex-direction: column;
             width: 80%;
@@ -894,6 +919,19 @@ body{
             margin-right: 5%;
             color: #ffffff;
         }
+        .four-image-container{
+            display: grid;
+            grid-template-columns: repeat(2 , 1fr);
+            gap: 0px;
+            align-items: center;
+
+                    }
+                    .four-img{
+                        height: 90%;
+                        width: 90%;
+                        /* border: 1px solid white; */
+                        margin: 0 auto;
+                    }
         
 
 
